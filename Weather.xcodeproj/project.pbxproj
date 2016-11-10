@@ -10,9 +10,11 @@
 		2D6AE6DA1DD3B828002BECEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6AE6D91DD3B828002BECEC /* main.m */; };
 		2D6AE6DD1DD3B828002BECEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6AE6DC1DD3B828002BECEC /* AppDelegate.m */; };
 		2D6AE6E01DD3B828002BECEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6AE6DF1DD3B828002BECEC /* ViewController.m */; };
-		2D6AE6E31DD3B828002BECEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D6AE6E11DD3B828002BECEC /* Main.storyboard */; };
 		2D6AE6E51DD3B828002BECEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D6AE6E41DD3B828002BECEC /* Assets.xcassets */; };
 		2D6AE6E81DD3B828002BECEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D6AE6E61DD3B828002BECEC /* LaunchScreen.storyboard */; };
+		2D6AE6F71DD3B8D0002BECEC /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6AE6F61DD3B8D0002BECEC /* City.m */; };
+		2D6AE6FA1DD3C5A4002BECEC /* CityVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6AE6F91DD3C5A4002BECEC /* CityVC.m */; };
+		2D6AE7101DD3EF6A002BECEC /* DetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6AE70F1DD3EF6A002BECEC /* DetailedViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +24,15 @@
 		2D6AE6DC1DD3B828002BECEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2D6AE6DE1DD3B828002BECEC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2D6AE6DF1DD3B828002BECEC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2D6AE6E21DD3B828002BECEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D6AE6E41DD3B828002BECEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D6AE6E71DD3B828002BECEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D6AE6E91DD3B828002BECEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D6AE6F51DD3B8D0002BECEC /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		2D6AE6F61DD3B8D0002BECEC /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		2D6AE6F81DD3C5A4002BECEC /* CityVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityVC.h; sourceTree = "<group>"; };
+		2D6AE6F91DD3C5A4002BECEC /* CityVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityVC.m; sourceTree = "<group>"; };
+		2D6AE70E1DD3EF6A002BECEC /* DetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedViewController.h; sourceTree = "<group>"; };
+		2D6AE70F1DD3EF6A002BECEC /* DetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +49,8 @@
 		2D6AE6CC1DD3B828002BECEC = {
 			isa = PBXGroup;
 			children = (
+				2D6AE6F51DD3B8D0002BECEC /* City.h */,
+				2D6AE6F61DD3B8D0002BECEC /* City.m */,
 				2D6AE6D71DD3B828002BECEC /* Weather */,
 				2D6AE6D61DD3B828002BECEC /* Products */,
 			);
@@ -60,13 +69,16 @@
 			children = (
 				2D6AE6DB1DD3B828002BECEC /* AppDelegate.h */,
 				2D6AE6DC1DD3B828002BECEC /* AppDelegate.m */,
+				2D6AE70E1DD3EF6A002BECEC /* DetailedViewController.h */,
+				2D6AE70F1DD3EF6A002BECEC /* DetailedViewController.m */,
 				2D6AE6DE1DD3B828002BECEC /* ViewController.h */,
 				2D6AE6DF1DD3B828002BECEC /* ViewController.m */,
-				2D6AE6E11DD3B828002BECEC /* Main.storyboard */,
 				2D6AE6E41DD3B828002BECEC /* Assets.xcassets */,
 				2D6AE6E61DD3B828002BECEC /* LaunchScreen.storyboard */,
 				2D6AE6E91DD3B828002BECEC /* Info.plist */,
 				2D6AE6D81DD3B828002BECEC /* Supporting Files */,
+				2D6AE6F81DD3C5A4002BECEC /* CityVC.h */,
+				2D6AE6F91DD3C5A4002BECEC /* CityVC.m */,
 			);
 			path = Weather;
 			sourceTree = "<group>";
@@ -138,7 +150,6 @@
 			files = (
 				2D6AE6E81DD3B828002BECEC /* LaunchScreen.storyboard in Resources */,
 				2D6AE6E51DD3B828002BECEC /* Assets.xcassets in Resources */,
-				2D6AE6E31DD3B828002BECEC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +162,9 @@
 			files = (
 				2D6AE6E01DD3B828002BECEC /* ViewController.m in Sources */,
 				2D6AE6DD1DD3B828002BECEC /* AppDelegate.m in Sources */,
+				2D6AE6F71DD3B8D0002BECEC /* City.m in Sources */,
+				2D6AE6FA1DD3C5A4002BECEC /* CityVC.m in Sources */,
+				2D6AE7101DD3EF6A002BECEC /* DetailedViewController.m in Sources */,
 				2D6AE6DA1DD3B828002BECEC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -158,14 +172,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2D6AE6E11DD3B828002BECEC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2D6AE6E21DD3B828002BECEC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2D6AE6E61DD3B828002BECEC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -300,6 +306,7 @@
 				2D6AE6EE1DD3B828002BECEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
